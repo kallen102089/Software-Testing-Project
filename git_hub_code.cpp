@@ -1,15 +1,6 @@
 // SoftwareTesting.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//Notes
-//still coded to have all data members as strings, should change to int? not sure if it matters.
-///change delete to not call search
-///struct student needs to have last three members changed to int (I think???)
-//need to refactor a bit so code isn't as redundant, most functions working atm
-//change grades from ints to A B C D
-//code for file mishaps like if the file doesn't exist
-//kind of want to change add_new_student function
-//if student already exists???
-//create new file if one doesn't already exist
-//may want to use iterators for searching list to have more interesting bugz
+//This program creates a Database allowing the user to load student information and changes
+//The program reads from a file into a vector and writes to the vector at the end
 
 
 #include <iostream>
